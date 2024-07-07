@@ -123,6 +123,7 @@ int main () //define as opções
 	    printf("\t1 - Registrar Nomes\n");
 	    printf("\t2 - Consultar Nomes\n");
 	    printf("\t3 - Deletar Nomes\n\n");
+	    printf("\t4 - Sair Do Sistema\n\n");
 	    printf("Opção : ");
 	    //Fim Do Menu
 	    
@@ -144,6 +145,11 @@ int main () //define as opções
 	    	case 3: //numeração da função
 	    	deletar(); //chamada de funções
    	     	break; //fim de função
+   	     	
+   	     	case 4:
+   	     	printf("Obrigado Por Usar o Sistema !\n");
+   	     	return 0;
+   	     	break;
    	  	
    	     	default: //função respomsável para quando a opção decidida não estiver disponível no menu
    	    	printf("Essa Opcao Nao Esta Disponivel !\n"); //erro de opção errada escolhida
